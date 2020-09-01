@@ -11,6 +11,10 @@ const __PASSWORD__ = '1232564'
 
 ## Run
 
+npm install or yarn install
+
+- run using
+
 ```json
 "scripts": {
     "start:dev": "nodemon",
