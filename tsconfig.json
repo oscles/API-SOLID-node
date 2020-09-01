@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es6"],
+    "outDir": "./build",
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
