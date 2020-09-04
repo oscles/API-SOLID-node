@@ -19,7 +19,7 @@ export class CreateUserUseCase {
 
     const user = new User(data)
     await this.userRepository.save(user)
-    await this.emailProvider.sendMail({
+    /* await this.emailProvider.sendMail({
       to: {
         email,
         name,
@@ -30,6 +30,6 @@ export class CreateUserUseCase {
       },
       subject: 'Email Test 2020',
       body: `<p> Hello world community </p>`,
-    })
+    }) */
   }
 }
