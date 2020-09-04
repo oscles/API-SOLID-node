@@ -18,4 +18,8 @@ export class PostgresUserRepository implements IUserRepository {
   async getUsers(): Promise<User[]> {
     return PostgresUserRepository.users
   }
+
+  async getUserById(id: string): Promise<User> {
+    return PostgresUserRepository.users.find((user) => user.id === id) as User
+  }
 }
